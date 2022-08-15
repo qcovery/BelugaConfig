@@ -1,0 +1,12 @@
+{
+    "name": "qcovery/beluga-config",
+    "description": "Configuration module for Qcovery installations",
+    "type": "qcovery-module",
+    "require": {
+        "php": ">=7.3",
+        "qcovery/vufind-composer-installer-plugin": "*"
+    },
+    "extra": {
+        "moduleName": "BelugaConfig"
+    }
+}
