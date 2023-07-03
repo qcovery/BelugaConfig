@@ -6,7 +6,7 @@
 namespace BelugaConfig\View\Helper\BelugaConfig;
 
 use Interop\Container\ContainerInterface;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 
 /**
  * ConfigReader helper factory.
