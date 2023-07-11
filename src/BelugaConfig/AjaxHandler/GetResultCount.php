@@ -28,7 +28,7 @@
 namespace BelugaConfig\AjaxHandler;
 
 use VuFind\AjaxHandler\AbstractBase;
-use Libraries\Search\Results\PluginManager as ResultsManager;
+use VuFind\Search\Results\PluginManager as ResultsManager;
 use Laminas\Mvc\Controller\Plugin\Params;
 use Laminas\Stdlib\Parameters;
 use Laminas\Config\Config;
