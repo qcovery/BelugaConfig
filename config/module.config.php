@@ -5,10 +5,10 @@ $config = [
     'service_manager' => [
         'allow_override' => true,
         'factories' => [
-            'BelugaConfig\AjaxHandler\PluginManager' => 'VuFind\ServiceManager\AbstractPluginManagerFactory',
+            'BelugaConfig\AjaxHandler\GetResultCount' => 'BelugaConfig\AjaxHandler\GetResultCountFactory',
         ],
         'aliases' => [
-            'VuFind\AjaxHandler\PluginManager' => 'BelugaConfig\AjaxHandler\PluginManager',
+            'getResultCount' => 'BelugaConfig\AjaxHandler\GetResultCount',
         ],
     ],
 ];

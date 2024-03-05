@@ -4,7 +4,7 @@
  */
 namespace BelugaConfig\View\Helper\BelugaConfig;
 
-use Zend\View\Helper\AbstractHelper;
+use Laminas\View\Helper\AbstractHelper;
 
 class ConfigReader extends AbstractHelper
 {

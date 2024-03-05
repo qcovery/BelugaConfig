@@ -28,10 +28,10 @@
 namespace BelugaConfig\AjaxHandler;
 
 use VuFind\AjaxHandler\AbstractBase;
-use Libraries\Search\Results\PluginManager as ResultsManager;
-use Zend\Mvc\Controller\Plugin\Params;
-use Zend\Stdlib\Parameters;
-use Zend\Config\Config;
+use VuFind\Search\Results\PluginManager as ResultsManager;
+use Laminas\Mvc\Controller\Plugin\Params;
+use Laminas\Stdlib\Parameters;
+use Laminas\Config\Config;
 
 /**
  * This controller handles global AJAX functionality
